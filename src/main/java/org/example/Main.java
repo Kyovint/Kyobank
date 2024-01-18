@@ -4,7 +4,7 @@ import ui.Menu;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("bienvenido al programa de nuevo");
+        System.out.println("bienvenido al programa de nuevoooooo");
         Menu.showMainMenu();
     }
 }
