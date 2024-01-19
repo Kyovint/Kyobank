@@ -7,5 +7,6 @@ public class Main {
         System.out.println("bienvenido al programa de nuevo");
         Menu.showMainMenu();
         System.out.println("Creado por Kevin Ardila");
+        System.out.println("Año 2024");
     }
 }
