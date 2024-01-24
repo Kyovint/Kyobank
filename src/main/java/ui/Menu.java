@@ -7,11 +7,11 @@ public class Menu {
 
         int response;
         do{
-            System.out.println("Bienvenido a KyoBank, ¿Que accion desea realizar?");
-            System.out.println("1. Agregar una oficina");
-            System.out.println("2. Agregar un funcionario");
+            System.out.println("¿Que accion desea realizar?");
+            System.out.println("1. Agregar una sucursal");
+            System.out.println("2. Agregar un cajero al sistema");
             System.out.println("3. Agregar un cliente");
-            System.out.println("4. Crear una cuenta bancaria");
+            System.out.println("4. Crear una cuenta bancaria para un usuario");
             System.out.println("5. Realizar una transaccion");
             response = sc.nextInt();
             switch (response){
@@ -31,7 +31,7 @@ public class Menu {
                     TransactionMenu.showTransactionMenu();
                     break;
                 default:
-                    System.out.println("Seleccione una opcion valida");
+                    System.out.println("Seleccione una opcion valida, por favor");
                     break;
             }
         }while (response != 0);
