@@ -12,7 +12,7 @@ public class Menu {
             System.out.println("2. Agregar un cajero al sistema");
             System.out.println("3. Agregar un nuevo cliente");
             System.out.println("4. Crear una cuenta bancaria para un usuario");
-            System.out.println("5. Realizar una transaccion");
+            System.out.println("5. Realizar una transaccion entre cuentas bancarias");
             response = sc.nextInt();
             switch (response){
                 case 1:
