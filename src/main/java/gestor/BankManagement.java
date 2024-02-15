@@ -94,7 +94,7 @@ public class BankManagement {
     public static void printAllOffices(){
         System.out.println("LISTADO DE OFICINAS DISPONIBLES");
         System.out.println("-------------------------------");
-        System.out.println("ID || Nombre de oficina || Ciudad de oficina");
+        System.out.println("ID || Nombre oficina || Ciudad de oficina");
         for (Office element: offices) {
             System.out.println(element.getId()+" || "+element.getName() + " || "+element.getCity());
             System.out.println("-------------------------------");
