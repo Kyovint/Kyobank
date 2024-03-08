@@ -7,7 +7,7 @@ public class Main {
         System.out.println("bienvenido a Kyobank");
         System.out.println("---MENU PRINCIPAL---");
         Menu.showMainMenu();
-        System.out.println("Creado por Kevin Ardila");
+        System.out.println("Creado por Kevin Ardila (kyovint)");
         System.out.println("Enero 18 de 2024");
     }
 }
